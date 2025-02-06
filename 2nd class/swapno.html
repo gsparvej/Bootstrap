@@ -11,6 +11,15 @@
 </head>
 
 <body>
+  <!-- marquee start -->
+
+
+  <div class="row">
+        <marquee class="p-1 text-danger  bg-warning">আপনার বাজার এখন আপনার বাড়িতে । আমাদের কার্ডধারী গ্রাহকদের জন্য সু-খবর ।
+          আপনার যদি আমাদের কার্ড না থাকে তাহলে অফার পাওয়ার জন্য আমাদের ডেস্কে যোগাযোগ করুন ।</marquee>
+  </div>
+  <!-- marquee end -->
+
   <nav class="navbar navbar-expand-lg bg-danger">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="/First Class/Picture/shwapno_logo.png" alt=""></a>
@@ -19,34 +28,33 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <!-- <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li> -->
           <form class="d-flex" role="search">
-            <input class="form" type="" placeholder=" Select your location">
+            <!-- <input class="form" type="" placeholder=" Select your location"> -->
+            <label for="" class="form-label text-content-center"></label>
+            <select class="form-select">
+              <option selected><i class="fa-solid fa-location-dot"></i> Select Your Location</option>
+              <option value="">Agargaon</option>
+              <option value="">Mirpur-10</option>
+              <option value="">Gulshan</option>
+              <option value="">Banani</option>
+              <option value="">New Market</option>
+              <option value="">Dhanmondi</option>
+              <option value="">Mohammadpur</option>
+              <option value="">Shyamoli</option>
+              <option value="">Mirpur-2</option>
+              <option value="">Panthopath</option>
+              <option value="">Mirpur-12</option>
+            </select>
 
           </form>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Link</a>
-          </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search">
-          <button class="btn btn-warning" type="submit">Sign in / Sign up</button>
+          <button class="btn btn-outline-light warning" type="submit"><i class="fa-solid fa-right-to-bracket"></i> Log In</button>
+          <button class="btn btn-outline-light success mx-3" type="submit"><i class="fa-solid fa-user-plus"></i> Create Account</button>
         </form>
       </div>
     </div>
@@ -54,48 +62,40 @@
   <!-- 2nd nav start -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Shop by Category</a>
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-list"></i> Shop by Category</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Mega Sale</a>
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bullhorn"></i> Mega Sale</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Great Deals</a>
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-handshake-simple"></i> Great Deals</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Reckitt Special</a>
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-soap"></i> Reckitt Special</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Buy & Save More</a>
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-cart-shopping"></i> Buy & Save More</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Women's Corner</a>
-          </li>
-          <li>
-            <marquee>আপনার বাজার এখন আপনার বাড়িতে</marquee>
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-person-dress"></i> Women's Corner</a>
           </li>
 
-          <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li> -->
         </ul>
         <span class="navbar-text">
-          Our Outlets
+          <i class="fa-solid fa-shop"></i> Our Outlets
         </span>
-        <span class="navbar-text">
-          Help Line
+        <span class="navbar-text mx-3">
+          <i class="fa fa-phone"></i> Help Line
         </span>
       </div>
     </div>
   </nav>
+
   <!-- carousel start -->
   <div class="row">
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -146,7 +146,7 @@
     <div class="col-md-3">
       <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" alt="">
     </div>
-    
+
   </div>
 
   <!-- ******* -->
@@ -164,9 +164,10 @@
         <img src="/First Class/Picture/Bashundhara-Power-Wash-Detergent-1kg_1_220.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text bold">West Bay Standard Comforter
-            <br> <p class="text-decoration-line-through">৳2250</p>
-            <p class="text-denger">৳1250 per price</p>
-            </p>
+            <br>
+          <p class="text-decoration-line-through">৳2250</p>
+          <p class="text-denger">৳1250 per price</p>
+          </p>
         </div>
       </div>
       <div class="card mx-3" style="width: 15rem;">
@@ -188,302 +189,319 @@
   </div>
 
   <div class="container-fluid bg-success my-3">
-  <div class="container py-5">
+    <div class="container py-5">
 
-  <div class="row">
-      <!-- <h2 class="text-center">Recomended For You</h2> -->
-      <div class="col-md-3 d-flex align-items-center justify-content-center">
-      <div class="card mx-1" style="width: 15rem; height: 25rem;">
-        <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" class="card-img-top" alt="...">
+      <div class="row">
+        <!-- <h2 class="text-center">Recomended For You</h2> -->
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+          <div class="card mx-1" style="width: 15rem; height: 25rem;">
+            <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+          <div class="card mx-1" style="width: 15rem; height: 25rem;">
+            <img src="/First Class/Picture/Dove-Beauty-Cream-Bar-.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text bold">West Bay Standard Comforter
+                <br>
+              <p class="text-decoration-line-through">৳2250</p>
+              <p class="text-denger">৳1250 per price</p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+          <div class="card mx-1" style="width: 15rem; height: 25rem;">
+            <img src="/First Class/Picture/Dettol-Soap-Original.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+          <div class="card mx-1" style="width: 15rem; height: 25rem;">
+            <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <nav class="navbar navbar-expand-lg bg-light mt-2">
+    <div class="row">
+      <img src="/First Class/Picture/Homepage Slim Banner.webp" alt="">
+
+    </div>
+
+  </nav>
+
+
+  <!-- $$$$$$$ start -->
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center">Recomended For You</h2>
+      <div class="card mx-3" style="width: 15rem; background-color: aqua;">
+        <img src="/First Class/Picture/Mothers-Horlicks.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
         </div>
       </div>
+      <div class="card mx-3" style="width: 15rem;background-color: aqua;">
+        <img src="/First Class/Picture/Wheel-Clean-Fresh-2in1-Detergent-Powder-.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text bold">West Bay Standard Comforter
+            <br>
+          
+        </div>
       </div>
-      <div class="col-md-3 d-flex align-items-center justify-content-center">
-      <div class="card mx-1" style="width: 15rem; height: 25rem;">
+      <div class="card mx-3" style="width: 15rem; background-color: aqua;">
+        <img src="/First Class/Picture/Sunsilk-Stunning-Black-Shine-Shampoo-.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text bold">West Bay Standard Comforter
+            <br>
+          <p class="text-decoration-line-through">৳500</p>
+          <p class="text-denger">৳250 per price</p>
+          </p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 15rem; background-color: aqua;">
         <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text bold">West Bay Standard Comforter
-            <br> <p class="text-decoration-line-through">৳2250</p>
-            <p class="text-denger">৳1250 per price</p>
-            </p>
+
+          </p>
         </div>
       </div>
-      </div>
-      <div class="col-md-3 d-flex align-items-center justify-content-center">
-      <div class="card mx-1" style="width: 15rem; height: 25rem;">
-        <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" class="card-img-top" alt="...">
+
+
+    </div>
+  </div>
+  <!-- $$$$$$$ end -->
+
+
+  <!-- @@@@@@@@ start -->
+  <div class="container mt-2">
+    <div class="row bg-light">
+      <h2 class="text-center">Amazing Finds For Just 99TK!</h2>
+      <div class="card mx-3" style="width: 15rem;">
+        <img src="/First Class/Picture/SUPTA-ERASER-BOX_99.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
         </div>
       </div>
+      <div class="card mx-3" style="width: 15rem;">
+        <img src="/First Class/Picture/SUPTA-KIDS-SMALL-BOOK_99.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text bold">West Bay Standard Comforter
+
+          </p>
+        </div>
       </div>
-      <div class="col-md-3 d-flex align-items-center justify-content-center">
-      <div class="card mx-1" style="width: 15rem; height: 25rem;">
-        <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" class="card-img-top" alt="...">
+      <div class="card mx-3" style="width: 15rem;">
+        <img src="/First Class/Picture/SUPTA-PENCIL-SET_99.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
         </div>
       </div>
+      <div class="card mx-3" style="width: 15rem;">
+        <img src="/First Class/Picture/WASI-TAPE_99.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- @@@@@@@ end -->
+
+  <!-- &&&&&& start -->
+  <div class="container">
+    <div class="row bg-light mt-3">
+      <h2 class="text-center">POPULAR ITEMS</h2>
+      <div class="card mx-3" style="width: 15rem;">
+        <img src="/First Class/Picture/popu 1 Sunshine-Atta-2kg_1_220.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 15rem;">
+        <img src="/First Class/Picture/popu 2 Paragon-Paratha-Family-Pack-1300gm_1_220.webp" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <p class="card-text bold">West Bay Standard Comforter</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 15rem;">
+        <img src="/First Class/Picture/popu 3 Radhuni-Chilli-Morich-Powder-200gm_1_220.webp" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 15rem;">
+        <img src="/First Class/Picture/popu 4 Colgate-Active-Salt-Toothpaste-200gm_1_220.webp" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- &&&&&& end -->
+
+  <!-- acordion start -->
+  <div class="accordion mt-2" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          <h3>Unilever's Winter Sale</h3>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          <h3>Women's Corner</h3>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h3>Featured Products</h3>
+
+
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
+  <!-- acordion end -->
 
-<nav class="navbar navbar-expand-lg bg-light mt-2">
-<div class="row">
-  <img src="/First Class/Picture/Homepage Slim Banner.webp" alt="">
+  <!-- footer strt -->
 
-</div>
+  <div class="row mt-2" style="background-color: black;">
+    <div class="col-md-4 text-justify text-light">
+      <center>
+        <h3 style="font-family: Georgia, 'Times New Roman', Times, serif; padding: 2px;">SWAPNO <img
+            src="imges/3f9b8d60e83b88a6c019b7fcb3ea1e.webp" alt="" height="30px" style="border-radius: 100%;"></h3>
+      </center>
+      <hr>
+      <i style="font-size:24px" class="fa">&#xf0e0;</i> swapno@gmail.com
+      <hr>
+      <i style='font-size:24px m-2' class='fas'>&#xf095;</i> +009-847-7465
+      <hr>
+      <i style='font-size:24px' class='fas'>&#xf3cd;</i> +64-4855-012548
+      <hr>
+      <i style='font-size:24px' class='fas'>&#xf3c5;</i>
+      Swapno Headquarter
+      Dhanmondi-27, Nizam Sankar Plaza 55/road, Dhaka-1207, Bangladesh
 
-</nav>
 
-
-<!-- $$$$$$$ start -->
-<div class="container">
-  <div class="row">
-    <h2 class="text-center">Recomended For You</h2>
-    <div class="card mx-3" style="width: 15rem; background-color: aqua;">
-      <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-      </div>
-    </div>
-    <div class="card mx-3" style="width: 15rem;background-color: aqua;">
-      <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text bold">West Bay Standard Comforter
-          <br> <p class="text-decoration-line-through">৳2250</p>
-          <p class="text-denger">৳1250 per price</p>
-          </p>
-      </div>
-    </div>
-    <div class="card mx-3" style="width: 15rem; background-color: aqua;">
-      <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text bold">West Bay Standard Comforter
-          <br> <p class="text-decoration-line-through">৳2250</p>
-          <p class="text-denger">৳1250 per price</p>
-          </p>
-      </div>
-    </div>
-    <div class="card mx-3" style="width: 15rem; background-color: aqua;">
-      <img src="/First Class/Picture/Cat Card_ Frozwn_300.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text bold">West Bay Standard Comforter
-          
-          </p>
-      </div>
-    </div>
 
 
     </div>
+    <div class="col-md-4 text-justify mt-2 ">
+      <center>
+        <h3 class="text-light">USEFUL LINKS</h3>
+      </center>
+      <hr>
+      <p><a href="#" class="link-underline-primary "> Health Ministry</a></p>
+      <p><a href="#" class="link-underline-primary">Food Qualities and Standardization
+          Council </a></p>
+      <p><a href="#" class="link-underline-primary">Trade licence Authorities</a></p>
+      <p><a href="#" class="link-underline-primary">Bangladesh Bank</a></p>
+      <p><a href="#" class="link-underline-primary">Bangladesh E-commers assiociation</a>
+      </p>
+
+
+
     </div>
-    <!-- $$$$$$$ end -->
+    <div class="col-md-4 mt-2 text-center">
+      <center>
+        <h3 class="text-light">Follow Us</h3>
+      </center>
+      <hr>
+
+      <p>
+      <h5 class="text-light"><i class="fa-brands fa-facebook"></i> Facebook</h5>
+      </p>
+      <p>
+      <h5 class="text-light"> <i class="fa-brands fa-twitter"></i> Twitter</h5>
+      </p>
+      <p>
+      <h5 class="text-light"> <i class="fa-brands fa-instagram"></i> Instagram</h5>
+      </p>
+      <p>
+      <h5 class="text-light"><i class="fa-brands fa-telegram"></i> Telegram</h5>
+      </p>
 
 
-    <!-- @@@@@@@@ start -->
-    <div class="container mt-2">
-      <div class="row bg-light">
-        <h2 class="text-center">Amazing Finds For Just 99TK!</h2>
-        <div class="card mx-3" style="width: 15rem;">
-          <img src="/First Class/Picture/SUPTA-ERASER-BOX_99.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
-        </div>
-        <div class="card mx-3" style="width: 15rem;">
-          <img src="/First Class/Picture/SUPTA-KIDS-SMALL-BOOK_99.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text bold">West Bay Standard Comforter
-              
-              </p>
-          </div>
-        </div>
-        <div class="card mx-3" style="width: 15rem;">
-          <img src="/First Class/Picture/SUPTA-PENCIL-SET_99.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
-        </div>
-        <div class="card mx-3" style="width: 15rem;">
-          <img src="/First Class/Picture/WASI-TAPE_99.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
-        </div>
-      </div>
-  
+
     </div>
-    <!-- @@@@@@@ end -->
-
-    <!-- &&&&&& start -->
-    <div class="container">
-      <div class="row bg-light mt-3">
-        <h2 class="text-center">POPULAR ITEMS</h2>
-        <div class="card mx-3" style="width: 15rem;">
-          <img src="/First Class/Picture/popu 1 Sunshine-Atta-2kg_1_220.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
-        </div>
-        <div class="card mx-3" style="width: 15rem;">
-          <img src="/First Class/Picture/popu 2 Paragon-Paratha-Family-Pack-1300gm_1_220.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text bold">West Bay Standard Comforter</p>
-          </div>
-        </div>
-        <div class="card mx-3" style="width: 15rem;">
-          <img src="/First Class/Picture/popu 3 Radhuni-Chilli-Morich-Powder-200gm_1_220.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
-        </div>
-        <div class="card mx-3" style="width: 15rem;">
-          <img src="/First Class/Picture/popu 4 Colgate-Active-Salt-Toothpaste-200gm_1_220.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
-        </div>
-      </div>
-  
-    </div>
-
-     <!-- &&&&&& end -->
-
-     <!-- acordion start -->
-     <div class="accordion mt-2" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            <h3>Unilever's Winter Sale</h3>
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <h3>Women's Corner</h3>
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            <h3>Featured Products</h3>
-            
-          
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-     <!-- acordion end -->
-
-     <!-- footer strt -->
-
-     <div class="row mt-2" style="background-color: black;">
-      <div class="col-md-4 text-justify text-light">
-          <center>
-              <h3 style="font-family: Georgia, 'Times New Roman', Times, serif; padding: 2px;" >SWAPNO <img
-                      src="imges/3f9b8d60e83b88a6c019b7fcb3ea1e.webp" alt="" height="30px"
-                      style="border-radius: 100%;"></h3>
-          </center>
-          <hr>
-          <i style="font-size:24px" class="fa">&#xf0e0;</i> swapno@gmail.com
-          <hr>
-          <i style='font-size:24px m-2' class='fas'>&#xf095;</i> +009-847-7465
-          <hr>
-          <i style='font-size:24px' class='fas'>&#xf3cd;</i> +64-4855-012548
-          <hr>
-          <i style='font-size:24px' class='fas'>&#xf3c5;</i>
-          Swapno Headquarter
-          Dhanmondi-27, Nizam Sankar Plaza 55/road, Dhaka-1207, Bangladesh
-
-
-
-
-      </div>
-      <div class="col-md-4 text-justify mt-2 ">
-          <center>
-              <h3 class="text-light">USEFUL LINKS</h3>
-          </center>
-          <hr>
-          <p><a href="#" class="link-underline-primary "> Health Ministry</a></p>
-          <p><a href="#" class="link-underline-primary">Food Qualities and Standardization
-                  Council </a></p>
-          <p><a href="#" class="link-underline-primary">Trade licence Authorities</a></p>
-          <p><a href="#" class="link-underline-primary">Bangladesh Bank</a></p>
-          <p><a href="#" class="link-underline-primary">Bangladesh E-commers assiociation</a>
-          </p>
-
-
-
-      </div>
-      <div class="col-md-4 mt-2 text-center">
-          <center>
-              <h3 class="text-light">Follow Us</h3>
-          </center>
-          <hr>
-
-          <p>
-          <h5 class="text-light"><i class="fa-brands fa-facebook"></i> Facebook</h5>
-          </p>
-          <p>
-          <h5 class="text-light"> <i class="fa-brands fa-twitter"></i> Twitter</h5>
-          </p>
-          <p>
-          <h5 class="text-light"> <i class="fa-brands fa-instagram"></i> Instagram</h5>
-          </p>
-          <p>
-          <h5 class="text-light"><i class="fa-brands fa-telegram"></i> Telegram</h5>
-          </p>
-
-          <!-- <img src="imges/foodlofgo.png" alt="" style="height: 60px;"> -->
-
-
-      </div>
 
 
 
   </div>
 
 
-</div>
+  </div>
 
 
-</div>
+  </div>
 
-      <!-- footer end -->
+  <!-- footer end -->
 
 
 
